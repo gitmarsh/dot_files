@@ -1,0 +1,41 @@
+##########################
+##	Marshall	##
+##	.bashrc		##
+##	Aliases		##	
+##			##
+##			##
+##########################
+
+# Bash Basic Tweaks
+alias ls='exa -ahl'
+alias clear='clear && bash'
+
+
+# Config Files
+alias bashconf='vim /home/marhearn/.bashrc-personal'
+alias xconf='vim /home/marhearn/.xmonad/xmonad.hs'
+alias aconf='vim ~/.config/awesome/rc.lua'
+
+# Public IP Address
+alias mip='curl https://ifconfig.me'
+
+# Pacman
+alias pacupdate='sudo pacman -Syu'
+alias pacfind='yay -Ss'
+alias pacget='yay -S'
+alias pacrm='sudo pacman -Rsc'
+
+# Error Logs via jornalctl
+alias jctl="sudo journalctl -p 3 -xb"
+alias herbconf="vim /home/marhearn/.config/herbstluftwm/autostart"
+
+# Apps
+alias spotify='ncpsot'
+alias fbmess='fb-messenger-cli'
+alias discli='discli'
+
+# SSH Quick Connecy
+alias marshazure='ssh ubuntu@13.67.218.153'
+
+# Program runtime Arguments
+alias steam='steam -noverifyfiles'
