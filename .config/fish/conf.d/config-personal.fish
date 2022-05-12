@@ -1,9 +1,9 @@
 ##########################
-##	Marshall	##
-##     bash/fish	##
-##	Aliases		##	
-##			##
-##			##
+##	                    ##
+##			Marshall       	##
+##     bash/fish	      ##
+##	    Aliases		      ##	              
+##		                	##
 ##########################
 
 # Bash Basic Tweaks
@@ -35,12 +35,8 @@ alias spotify='ncpsot'
 alias fbmess='fb-messenger-cli'
 alias discli='discli'
 
-# SSH Quick Connecy
-alias marshazure='ssh ubuntu@13.67.218.153'
-
 # Program runtime Arguments
 alias steam='steam -noverifyfiles'
-alias netspd='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -'
 
 # Kitty
 alias icat="kitty +kitten icat"
